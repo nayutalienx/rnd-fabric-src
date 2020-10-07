@@ -1,0 +1,50 @@
+../common/findslot.o: ../common/findslot.cpp /usr/include/stdc-predef.h \
+ ../../../config.h ../common/findslot.h ../../lib/pkcs11/cryptoki.h \
+ ../../lib/pkcs11/pkcs11.h /usr/include/stddef.h \
+ /usr/include/bits/alltypes.h /usr/include/stdio.h \
+ /usr/include/features.h /usr/include/c++/9.3.0/stdlib.h \
+ /usr/include/c++/9.3.0/cstdlib \
+ /usr/include/c++/9.3.0/x86_64-alpine-linux-musl/bits/c++config.h \
+ /usr/include/c++/9.3.0/x86_64-alpine-linux-musl/bits/os_defines.h \
+ /usr/include/c++/9.3.0/x86_64-alpine-linux-musl/bits/cpu_defines.h \
+ /usr/include/stdlib.h /usr/include/alloca.h \
+ /usr/include/c++/9.3.0/bits/std_abs.h /usr/include/string.h \
+ /usr/include/strings.h
+
+/usr/include/stdc-predef.h:
+
+../../../config.h:
+
+../common/findslot.h:
+
+../../lib/pkcs11/cryptoki.h:
+
+../../lib/pkcs11/pkcs11.h:
+
+/usr/include/stddef.h:
+
+/usr/include/bits/alltypes.h:
+
+/usr/include/stdio.h:
+
+/usr/include/features.h:
+
+/usr/include/c++/9.3.0/stdlib.h:
+
+/usr/include/c++/9.3.0/cstdlib:
+
+/usr/include/c++/9.3.0/x86_64-alpine-linux-musl/bits/c++config.h:
+
+/usr/include/c++/9.3.0/x86_64-alpine-linux-musl/bits/os_defines.h:
+
+/usr/include/c++/9.3.0/x86_64-alpine-linux-musl/bits/cpu_defines.h:
+
+/usr/include/stdlib.h:
+
+/usr/include/alloca.h:
+
+/usr/include/c++/9.3.0/bits/std_abs.h:
+
+/usr/include/string.h:
+
+/usr/include/strings.h:

@@ -5,7 +5,20 @@
 ARG GO_VER
 ARG ALPINE_VER
 FROM alpine:${ALPINE_VER} as base
-RUN apk add --no-cache tzdata
+RUN apk add --no-cache \
+	tzdata \
+	automake \
+	autoconf \
+	libtool \
+	g++ \
+	openssl \
+	opensc \
+	curl \ 
+	libressl-dev \
+	make;
+
+COPY SoftHSMv2 /SoftHSMv2
+RUN cd /SoftHSMv2 && sh autogen.sh && ./configure && make && make install
 # set up nsswitch.conf for Go's "netgo" implementation
 # - https://github.com/golang/go/blob/go1.9.1/src/net/conf.go#L194-L275
 # - docker run --rm debian:stretch grep '^hosts:' /etc/nsswitch.conf

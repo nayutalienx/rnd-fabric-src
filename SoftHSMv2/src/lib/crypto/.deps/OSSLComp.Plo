@@ -1,0 +1,99 @@
+OSSLComp.lo: OSSLComp.cpp /usr/include/stdc-predef.h ../../../config.h \
+ OSSLComp.h /usr/include/openssl/opensslv.h /usr/include/openssl/evp.h \
+ /usr/include/openssl/opensslconf.h \
+ /usr/include/openssl/opensslfeatures.h /usr/include/openssl/ossl_typ.h \
+ /usr/include/openssl/bio.h /usr/include/stdio.h /usr/include/features.h \
+ /usr/include/bits/alltypes.h /usr/include/stdarg.h \
+ /usr/include/openssl/crypto.h /usr/include/stdint.h \
+ /usr/include/bits/stdint.h /usr/include/c++/9.3.0/stdlib.h \
+ /usr/include/c++/9.3.0/cstdlib \
+ /usr/include/c++/9.3.0/x86_64-alpine-linux-musl/bits/c++config.h \
+ /usr/include/c++/9.3.0/x86_64-alpine-linux-musl/bits/os_defines.h \
+ /usr/include/c++/9.3.0/x86_64-alpine-linux-musl/bits/cpu_defines.h \
+ /usr/include/stdlib.h /usr/include/alloca.h \
+ /usr/include/c++/9.3.0/bits/std_abs.h /usr/include/openssl/stack.h \
+ /usr/include/openssl/safestack.h /usr/include/openssl/objects.h \
+ /usr/include/openssl/obj_mac.h /usr/include/openssl/asn1.h \
+ /usr/include/time.h /usr/include/openssl/bn.h \
+ /usr/include/openssl/hmac.h /usr/include/openssl/dh.h \
+ /usr/include/openssl/dsa.h /usr/include/openssl/ecdsa.h \
+ /usr/include/openssl/ec.h /usr/include/openssl/rsa.h \
+ /usr/include/string.h /usr/include/strings.h
+
+/usr/include/stdc-predef.h:
+
+../../../config.h:
+
+OSSLComp.h:
+
+/usr/include/openssl/opensslv.h:
+
+/usr/include/openssl/evp.h:
+
+/usr/include/openssl/opensslconf.h:
+
+/usr/include/openssl/opensslfeatures.h:
+
+/usr/include/openssl/ossl_typ.h:
+
+/usr/include/openssl/bio.h:
+
+/usr/include/stdio.h:
+
+/usr/include/features.h:
+
+/usr/include/bits/alltypes.h:
+
+/usr/include/stdarg.h:
+
+/usr/include/openssl/crypto.h:
+
+/usr/include/stdint.h:
+
+/usr/include/bits/stdint.h:
+
+/usr/include/c++/9.3.0/stdlib.h:
+
+/usr/include/c++/9.3.0/cstdlib:
+
+/usr/include/c++/9.3.0/x86_64-alpine-linux-musl/bits/c++config.h:
+
+/usr/include/c++/9.3.0/x86_64-alpine-linux-musl/bits/os_defines.h:
+
+/usr/include/c++/9.3.0/x86_64-alpine-linux-musl/bits/cpu_defines.h:
+
+/usr/include/stdlib.h:
+
+/usr/include/alloca.h:
+
+/usr/include/c++/9.3.0/bits/std_abs.h:
+
+/usr/include/openssl/stack.h:
+
+/usr/include/openssl/safestack.h:
+
+/usr/include/openssl/objects.h:
+
+/usr/include/openssl/obj_mac.h:
+
+/usr/include/openssl/asn1.h:
+
+/usr/include/time.h:
+
+/usr/include/openssl/bn.h:
+
+/usr/include/openssl/hmac.h:
+
+/usr/include/openssl/dh.h:
+
+/usr/include/openssl/dsa.h:
+
+/usr/include/openssl/ecdsa.h:
+
+/usr/include/openssl/ec.h:
+
+/usr/include/openssl/rsa.h:
+
+/usr/include/string.h:
+
+/usr/include/strings.h:

@@ -1,0 +1,54 @@
+base64.o: base64.c /usr/include/stdc-predef.h /usr/include/sys/types.h \
+ /usr/include/features.h /usr/include/bits/alltypes.h \
+ /usr/include/endian.h /usr/include/stdint.h /usr/include/bits/stdint.h \
+ /usr/include/sys/select.h /usr/include/sys/param.h \
+ /usr/include/sys/resource.h /usr/include/sys/time.h \
+ /usr/include/bits/resource.h /usr/include/limits.h \
+ /usr/include/bits/limits.h /usr/include/sys/socket.h \
+ /usr/include/bits/socket.h /usr/include/ctype.h /usr/include/stdio.h \
+ /usr/include/stdlib.h /usr/include/alloca.h /usr/include/string.h \
+ /usr/include/strings.h
+
+/usr/include/stdc-predef.h:
+
+/usr/include/sys/types.h:
+
+/usr/include/features.h:
+
+/usr/include/bits/alltypes.h:
+
+/usr/include/endian.h:
+
+/usr/include/stdint.h:
+
+/usr/include/bits/stdint.h:
+
+/usr/include/sys/select.h:
+
+/usr/include/sys/param.h:
+
+/usr/include/sys/resource.h:
+
+/usr/include/sys/time.h:
+
+/usr/include/bits/resource.h:
+
+/usr/include/limits.h:
+
+/usr/include/bits/limits.h:
+
+/usr/include/sys/socket.h:
+
+/usr/include/bits/socket.h:
+
+/usr/include/ctype.h:
+
+/usr/include/stdio.h:
+
+/usr/include/stdlib.h:
+
+/usr/include/alloca.h:
+
+/usr/include/string.h:
+
+/usr/include/strings.h:
