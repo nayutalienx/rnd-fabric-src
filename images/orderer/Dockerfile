@@ -38,6 +38,10 @@ FROM golang as orderer
 ARG GO_TAGS
 RUN make orderer GO_TAGS=${GO_TAGS}
 
+ADD ./fabric-ca $GOPATH/src/github.com/hyperledger/fabric-ca
+WORKDIR $GOPATH/src/github.com/hyperledger/fabric-ca/cmd/fabric-ca-client
+RUN go build -o /go/src/github.com/hyperledger/fabric/build/bin/fabric-ca-client -tags $GO_TAGS
+
 FROM base
 ENV FABRIC_CFG_PATH /etc/hyperledger/fabric
 VOLUME /etc/hyperledger/fabric
