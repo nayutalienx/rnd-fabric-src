@@ -16,10 +16,15 @@ RUN apk add --no-cache \
 	opensc \
 	curl \ 
 	libressl-dev \
+	go \
+	git \
+	jq \
+	--no-cache \
 	make;
 
 COPY SoftHSMv2 /SoftHSMv2
 RUN cd /SoftHSMv2 && sh autogen.sh && ./configure && make && make install
+RUN go get github.com/go-delve/delve/cmd/dlv
 
 # set up nsswitch.conf for Go's "netgo" implementation
 # - https://github.com/golang/go/blob/go1.9.1/src/net/conf.go#L194-L275
